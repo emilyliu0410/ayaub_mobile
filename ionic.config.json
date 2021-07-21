@@ -1,0 +1,7 @@
+{
+  "name": "ayaub",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
