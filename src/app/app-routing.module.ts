@@ -5,7 +5,11 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  }
+  },
+  // {
+  //   path: 'form-popup',
+  //   loadChildren: () => import('./form-popup/form-popup/form-popup.module').then( m => m.FormPopupPageModule)
+  // }
 ];
 @NgModule({
   imports: [
