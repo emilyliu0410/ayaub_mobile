@@ -1,0 +1,41 @@
+
+// .close-button { 
+//     button{
+//         background: none;
+//     }
+// }
+:host(app-form-popup){
+    .close-button { 
+            // button{
+                background: none;
+            // }
+    }
+    .ion-text-inline{
+        display: inline-block;
+    }
+}
+// :host(ion-modal){
+//     .modal-wrapper {
+//     &.ion-overlay-wrapper {
+//         transform: translate(0, 10%) !important;
+
+//     }
+// }
+// }
+
+.my-custom-modal-css{
+    .modal-wrapper {
+        height: 20%;
+        top: 80%;
+        position: absolute; 
+        display: block;  
+     }
+
+} 
+// page-contacts {
+    // div {
+    //     &.example { class
+    //          color: red;
+    //     }
+    // }
+// }

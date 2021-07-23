@@ -17,7 +17,8 @@ export class Tab1Page {
       component: FormPopupPage,
       componentProps: {
         'user_id': '12345'
-      }
+      },
+      cssClass: 'form-popup-page-css'
     });
 
     modal.onDidDismiss().then((modalDataResponse) => {
