@@ -1,16 +1,19 @@
-::ng-deep.form-popup-page-css{
-    top: 10%;
-    border-radius: 10px;
-} 
 
 .new-background-color{
     --background: #fff !important;
     ion-title{
         color: pink;
     }
+    #container{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-items: center; 
+    }
 }
 
-.image1:hover{
-    opacity:0.6;
-}
+// .image1:hover{
+//     opacity:0.6;
+// }
 

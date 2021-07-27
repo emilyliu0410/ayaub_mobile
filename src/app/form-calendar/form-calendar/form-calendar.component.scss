@@ -1,0 +1,32 @@
+
+.ayaub-form-calender{
+    padding-top: 0;
+    .title {
+        padding: 0 !important;  
+    }
+    .header-md::after {
+        position: initial  !important;
+    }
+    ion-calendar{
+        padding: 0px 20px;
+    }
+    .switch-btn{
+        width: auto !important;
+        padding: 0 15px ;
+        }
+    
+    .primary .days .on-selected , .primary .startSelection button.days-btn, .primary .endSelection button.days-btn {
+        background-color: #fb92a4 !important;
+        color: #fff  !important;
+    }
+    .primary button.days-btn small,  .primary .days .marked p,  .primary .days .today p {
+        color: #fb92a4 !important;
+    }
+    ion-calendar-month-picker{
+        color: #000;
+        button{
+            color: #000;
+        }
+    }
+}
+

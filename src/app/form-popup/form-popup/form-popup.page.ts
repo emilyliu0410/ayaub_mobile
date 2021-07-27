@@ -8,12 +8,12 @@ import { CalendarModule } from 'ion2-calendar';import { CalendarComponentOptions
 })
 export class FormPopupPage  {
   // @Input() user_id: string;
-  dateMulti: string[];
-  type: 'string';
-  
-  optionsMulti: CalendarComponentOptions = {
-    pickMode: 'multi'
-  };
+  // dateMulti: string[];
+  // type: 'string';
+  // cssClass: 'string';
+  // optionsMulti: CalendarComponentOptions = {
+  //   pickMode: 'multi'
+  // };
   constructor(private modalCtr: ModalController,) { }
   
   

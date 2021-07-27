@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header class="new-background-color">
   <ion-toolbar>
     <!-- <ion-button (click)="close()" color="none"><ion-icon name="arrow-back"></ion-icon></ion-button>
     <ion-title class="ion-text-center ion-text-inline">
@@ -9,10 +9,9 @@
         <ion-col size="1">
           <ion-button (click)="close()" color="none"><ion-icon name="arrow-back"></ion-icon></ion-button>
         </ion-col>
-        <ion-col text-center>
-          <ion-title class="ion-text-center ">
-            Ionic Calendar Examples
-          </ion-title>
+        <ion-col size="11" style=" margin: auto 0;
+        padding: 0 30%;">
+          <ion-title>預約</ion-title>
         </ion-col>
       </ion-row>
     </ion-grid>
@@ -20,4 +19,5 @@
 </ion-header>
 <ion-content>
 <app-form-calendar></app-form-calendar>
+<app-form-time></app-form-time>
 </ion-content>

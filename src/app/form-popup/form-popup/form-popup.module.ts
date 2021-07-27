@@ -11,6 +11,7 @@ import { ModalController } from '@ionic/angular';
 
 import { FormPopupPage } from './form-popup.page';
 import { FormCalendarComponentModule } from 'src/app/form-calendar/form-calendar/form-calendar.module';
+import { FormTimeModule } from 'src/app/form-time/form-time.module';
 import { CalendarService } from 'ion2-calendar/dist/services/calendar.service';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { CalendarService } from 'ion2-calendar/dist/services/calendar.service';
     IonicModule,
     FormPopupPageRoutingModule,
     CalendarModule,
-    FormCalendarComponentModule
+    FormCalendarComponentModule,
+    FormTimeModule
     
   ],
   declarations: [FormPopupPage],

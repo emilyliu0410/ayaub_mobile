@@ -1,10 +1,11 @@
 
-// .close-button { 
-//     button{
-//         background: none;
-//     }
-// }
 :host(app-form-popup){
+    --ion-toolbar-background: #fff !important;
+    --background: #fff;
+    --ion-background-color: #fff;
+    .header-md::after {
+        position: initial  !important;
+    }
     .close-button { 
             // button{
                 background: none;
@@ -13,29 +14,35 @@
     .ion-text-inline{
         display: inline-block;
     }
+    .header-ios ion-toolbar:last-of-type {
+        --border-width: 0;
+    }
+    .button-native{
+        border: 0;
+        box-shadow: none;
+    }
 }
-// :host(ion-modal){
-//     .modal-wrapper {
-//     &.ion-overlay-wrapper {
-//         transform: translate(0, 10%) !important;
-
-//     }
-// }
-// }
-
-.my-custom-modal-css{
-    .modal-wrapper {
-        height: 20%;
-        top: 80%;
-        position: absolute; 
-        display: block;  
-     }
-
+::ng-deep.form-popup-page-css{
+    // top: 10%;
+    border-radius: 10px;
+    box-shadow: 0px -100px 12px rgb(0 0 0 / 20%);
+    @media (max-width: 768px) { 
+        top: 10%;
+    }
+    .new-background-color{
+        --background: #fff !important;
+    }
+    ion-header{
+        ion-title{
+            color: black;
+        }
+        ion-button{
+            color: black;
+            .button-native{
+                border: 0 !important;
+                box-shadow: none !important;
+            }
+        }
+    }
+    
 } 
-// page-contacts {
-    // div {
-    //     &.example { class
-    //          color: red;
-    //     }
-    // }
-// }
