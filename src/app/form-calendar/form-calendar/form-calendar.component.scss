@@ -1,12 +1,10 @@
 
 .ayaub-form-calender{
-    padding-top: 0;
+    padding: 0;
     .title {
         padding: 0 !important;  
     }
-    .header-md::after {
-        position: initial  !important;
-    }
+    
     ion-calendar{
         padding: 0px 20px;
     }
