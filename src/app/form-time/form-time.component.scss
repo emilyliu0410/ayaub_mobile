@@ -9,6 +9,13 @@
         --border-width: 1px;
         --border-radius: 6px;
         --border-color: #b1b1b1;
+        margin-bottom: 16px;
+        
+        ion-datetime{
+            --placeholder-color: #000;
+            --placeholder-opacity: 1;
+        }
     }
+    
 }
 
