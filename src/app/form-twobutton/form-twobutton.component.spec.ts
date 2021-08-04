@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { FormButtonsComponent } from './form-buttons.component';
+import { FormTwobuttonComponent } from './form-twobutton.component';
 
-describe('FormButtonsComponent', () => {
-  let component: FormButtonsComponent;
-  let fixture: ComponentFixture<FormButtonsComponent>;
+describe('FormTwobuttonComponent', () => {
+  let component: FormTwobuttonComponent;
+  let fixture: ComponentFixture<FormTwobuttonComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FormButtonsComponent ],
+      declarations: [ FormTwobuttonComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(FormButtonsComponent);
+    fixture = TestBed.createComponent(FormTwobuttonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

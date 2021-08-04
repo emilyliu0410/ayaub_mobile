@@ -7,9 +7,7 @@
         position: initial  !important;
     }
     .close-button { 
-            // button{
                 background: none;
-            // }
     }
     .ion-text-inline{
         display: inline-block;
@@ -38,6 +36,8 @@
         }
         ion-button{
             color: black;
+            --box-shadow: none;
+
             .button-native{
                 border: 0 !important;
                 box-shadow: none !important;

@@ -13,7 +13,7 @@ import { FormPopupPage } from './form-popup.page';
 import { FormCalendarComponentModule } from 'src/app/form-calendar/form-calendar/form-calendar.module';
 import { FormTimeModule } from 'src/app/form-time/form-time.module';
 import { FormPplAmountModule } from 'src/app/form-ppl-amount/form-ppl-amount.module';
-import { FormButtonsComponent } from 'src/app/form-buttons/form-buttons.component';
+import { FormTwobuttonModule } from 'src/app/form-twobutton/form-twobutton.module';
 import { CalendarService } from 'ion2-calendar/dist/services/calendar.service';
 
 @NgModule({
@@ -26,8 +26,7 @@ import { CalendarService } from 'ion2-calendar/dist/services/calendar.service';
     FormCalendarComponentModule,
     FormTimeModule,
     FormPplAmountModule,
-    FormButtonsComponent
-    
+    FormTwobuttonModule
   ],
   declarations: [FormPopupPage],
   
