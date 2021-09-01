@@ -14,18 +14,22 @@ export class FormPopupPage  {
   // optionsMulti: CalendarComponentOptions = {
   //   pickMode: 'multi'
   // };
-  constructor(private modalCtr: ModalController,) { }
+  constructor(private modalCtr: ModalController) { }
   
-  
-
-  onChange($event) {
-    console.log($event);
+  close(){
+    this.modalCtr.dismiss({
+      'dismissed': true
+    });
   }
-  // ngOnInit() {
+  
+  // onChange($event) {
+  //   console.log($event);
   // }
+  // // ngOnInit() {
+  // // }
   
-  async close() {
-    const closeModal: string = "Modal Closed";
-    await this.modalCtr.dismiss(closeModal);
-  }
+  // async close() {
+  //   const closeModal: string = "Modal Closed";
+  //   await this.modalCtr.dismiss(closeModal);
+  // }
 }

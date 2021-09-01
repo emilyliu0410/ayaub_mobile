@@ -33,6 +33,9 @@ export class FormCalendarComponent  {
   constructor() { 
     // console.log(this.mylblRef.nativeElement.innerText);
   }
+  getDate(event) {
+    console.log(event.format('DD-MM-YYYY'));
+  }
 
 
 }

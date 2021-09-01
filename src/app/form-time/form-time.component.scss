@@ -14,8 +14,24 @@
         ion-datetime{
             --placeholder-color: #000;
             --placeholder-opacity: 1;
+            color: #000;
         }
+    }
+    ::ng-deep.picker-wrapper.sc-ion-picker-md{
+        --background: #fff;
+        color: #000;
+        border-style: none;
+    }
+    .datetime-text{
+        color: #000;
     }
     
 }
-
+::ng-deep.picker-wrapper.sc-ion-picker-md{
+    --background: #fff;
+    color: #000;
+    border-style: none !important;
+    .picker-button.sc-ion-picker-md, .picker-prefix, .picker-suffix, .picker-opt.picker-opt-selected {
+        color:  #f48f8d;
+    }
+}

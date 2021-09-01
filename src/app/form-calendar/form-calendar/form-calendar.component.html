@@ -1,6 +1,7 @@
   <div class="ion-padding ayaub-form-calender">
 
     <ion-calendar #mylbl [(ngModel)]="dateMulti"
+    (change)="getDate($event)"
     [options]="options"
     [type]="type"
     [format]="'YYYY-MM-DD'" 
