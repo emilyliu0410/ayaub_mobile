@@ -5,10 +5,16 @@
         <p>預約人數</p>
       </ion-col>
       <ion-col size="6">
+        
+       
         <ion-item>
-
+          <button ion-button icon-only clear item-right (click)="increment()" style="position: absolute;left: 0;">
+            <ion-icon name='add-circle-outline' icon-start ></ion-icon></button>
+          <p style="margin: auto;">{{currentNumber}} </p>
+          <button ion-button icon-only clear item-right (click)="decrement()" style="position: absolute;right: 0;">
+            <ion-icon name='remove-circle-outline' icon-start ></ion-icon></button>
           <!--Basic: auto-select the icon based on the platform -->
-          <ion-button><ion-icon name="add-circle-outline" style="color: #fff;"></ion-icon></ion-button>
+          <!-- <ion-button><ion-icon name="add-circle-outline" style="color: #fff;"></ion-icon></ion-button> -->
         
           <!-- Advanced: explicity set the icon for each platform -->
             <!-- <div class="icon-inner">
@@ -18,10 +24,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M256 176v160M336 256H176" class="ionicon-fill-none ionicon-stroke-width"></path></svg></div>
            </ion-icon> -->
           
-            <ion-input 
+            <!-- <ion-input 
             placeholder="1" 
             type="number"></ion-input>
-            <ion-button><ion-icon name="remove-circle-outline"></ion-icon></ion-button>
+            <ion-button><ion-icon name="remove-circle-outline"></ion-icon></ion-button> -->
           </ion-item>
       </ion-col>
     </ion-row>

@@ -6,9 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-ppl-amount.component.scss'],
 })
 export class FormPplAmountComponent implements OnInit {
+  private currentNumber = 1;
 
   constructor() { }
-
+  private increment() {
+    this.currentNumber++;
+  }
+  
+  private decrement() {
+    this.currentNumber--;
+  }
   ngOnInit() {}
 
 }
